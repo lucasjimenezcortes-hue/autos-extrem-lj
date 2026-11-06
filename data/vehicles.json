@@ -1,0 +1,106 @@
+{
+  "vehicles": [
+    {
+      "id": "bmw-520d",
+      "brand": "BMW",
+      "model": "520d",
+      "year": 2017,
+      "km": 164858,
+      "fuel": "Diésel",
+      "transmission": "Automático",
+      "features": [
+        "Iluminación ambiental configurable",
+        "Asistente de aparcamiento",
+        "Interior de cuero negro",
+        "Sistema multimedia y navegador"
+      ],
+      "price": 19990,
+      "image": "assets/bmw-520d-01.jpeg",
+      "gallery": [
+        "assets/bmw-520d-01.jpeg",
+        "assets/bmw-520d-02.jpeg",
+        "assets/bmw-520d-03.jpeg",
+        "assets/bmw-520d-04.jpeg",
+        "assets/bmw-520d-05.jpeg",
+        "assets/bmw-520d-06.jpeg",
+        "assets/bmw-520d-07.jpeg",
+        "assets/bmw-520d-08.jpeg",
+        "assets/bmw-520d-09.jpeg",
+        "assets/bmw-520d-10.jpeg",
+        "assets/bmw-520d-11.jpeg",
+        "assets/bmw-520d-12.jpeg",
+        "assets/bmw-520d-13.jpeg",
+        "assets/bmw-520d-14.jpeg",
+        "assets/bmw-520d-15.jpeg",
+        "assets/bmw-520d-16.jpeg",
+        "assets/bmw-520d-17.jpeg",
+        "assets/bmw-520d-18.jpeg",
+        "assets/bmw-520d-19.jpeg",
+        "assets/bmw-520d-20.jpeg"
+      ]
+    },
+    {
+      "id": "skoda-octavia",
+      "brand": "Škoda",
+      "model": "Octavia 2.0 TDI Elegance DSG",
+      "year": 2007,
+      "km": 145000,
+      "fuel": "Diésel",
+      "transmission": "Automático DSG",
+      "features": [
+        "Motor 2.0 TDI",
+        "Cambio automático DSG",
+        "Acabado Elegance"
+      ],
+      "price": 5990,
+      "image": "assets/vehicles/skoda-octavia/skoda-octavia-01.jpeg",
+      "gallery": [
+        "assets/vehicles/skoda-octavia/skoda-octavia-01.jpeg",
+        "assets/vehicles/skoda-octavia/skoda-octavia-02.jpeg",
+        "assets/vehicles/skoda-octavia/skoda-octavia-03.jpeg",
+        "assets/vehicles/skoda-octavia/skoda-octavia-04.jpeg",
+        "assets/vehicles/skoda-octavia/skoda-octavia-05.jpeg",
+        "assets/vehicles/skoda-octavia/skoda-octavia-06.jpeg",
+        "assets/vehicles/skoda-octavia/skoda-octavia-07.jpeg",
+        "assets/vehicles/skoda-octavia/skoda-octavia-08.jpeg",
+        "assets/vehicles/skoda-octavia/skoda-octavia-09.jpeg",
+        "assets/vehicles/skoda-octavia/skoda-octavia-10.jpeg",
+        "assets/vehicles/skoda-octavia/skoda-octavia-11.jpeg",
+        "assets/vehicles/skoda-octavia/skoda-octavia-12.jpeg",
+        "assets/vehicles/skoda-octavia/skoda-octavia-13.jpeg",
+        "assets/vehicles/skoda-octavia/skoda-octavia-14.jpeg",
+        "assets/vehicles/skoda-octavia/skoda-octavia-15.jpeg"
+      ]
+    },
+    {
+      "id": "seat-altea-xl",
+      "brand": "SEAT",
+      "model": "Altea XL 1.6 TDI Emotion 90 CV",
+      "year": 2011,
+      "km": 180000,
+      "fuel": "Diésel",
+      "transmission": "Manual",
+      "features": [
+        "Motor 1.6 TDI de 90 CV",
+        "Carrocería XL",
+        "Acabado Emotion"
+      ],
+      "price": 5990,
+      "image": "assets/vehicles/seat-altea/seat-altea-01.jpeg",
+      "gallery": [
+        "assets/vehicles/seat-altea/seat-altea-01.jpeg",
+        "assets/vehicles/seat-altea/seat-altea-02.jpeg",
+        "assets/vehicles/seat-altea/seat-altea-03.jpeg",
+        "assets/vehicles/seat-altea/seat-altea-04.jpeg",
+        "assets/vehicles/seat-altea/seat-altea-05.jpeg",
+        "assets/vehicles/seat-altea/seat-altea-06.jpeg",
+        "assets/vehicles/seat-altea/seat-altea-07.jpeg",
+        "assets/vehicles/seat-altea/seat-altea-08.jpeg",
+        "assets/vehicles/seat-altea/seat-altea-09.jpeg",
+        "assets/vehicles/seat-altea/seat-altea-10.jpeg",
+        "assets/vehicles/seat-altea/seat-altea-11.jpeg",
+        "assets/vehicles/seat-altea/seat-altea-12.jpeg"
+      ]
+    }
+  ]
+}

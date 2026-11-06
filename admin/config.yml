@@ -1,0 +1,42 @@
+backend:
+  name: git-gateway
+  branch: main
+
+locale: es
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+site_url: /
+display_url: /
+
+collections:
+  - name: "catalogo"
+    label: "Catálogo de vehículos"
+    files:
+      - name: "vehiculos"
+        label: "Vehículos publicados"
+        file: "data/vehicles.json"
+        format: "json"
+        fields:
+          - label: "Vehículos"
+            name: "vehicles"
+            widget: "list"
+            summary: "{{fields.brand}} {{fields.model}} — {{fields.price}} €"
+            fields:
+              - { label: "Identificador (sin espacios)", name: "id", widget: "string" }
+              - { label: "Marca", name: "brand", widget: "string" }
+              - { label: "Modelo", name: "model", widget: "string" }
+              - { label: "Año", name: "year", widget: "number", value_type: "int", min: 1950, max: 2035 }
+              - { label: "Kilómetros", name: "km", widget: "number", value_type: "int", min: 0 }
+              - { label: "Combustible", name: "fuel", widget: "select", options: ["Diésel", "Gasolina", "Híbrido", "Eléctrico", "GLP"] }
+              - { label: "Cambio", name: "transmission", widget: "select", options: ["Manual", "Automático", "Automático DSG"] }
+              - { label: "Precio (€)", name: "price", widget: "number", value_type: "int", min: 0 }
+              - { label: "Fotografía principal", name: "image", widget: "image" }
+              - label: "Galería de fotografías"
+                name: "gallery"
+                widget: "list"
+                field: { label: "Fotografía", name: "photo", widget: "image" }
+              - label: "Equipamiento y características"
+                name: "features"
+                widget: "list"
+                field: { label: "Característica", name: "feature", widget: "string" }

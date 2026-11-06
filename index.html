@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AUTOS EXTREM L.J. - Compra y venta de vehículos. Consulta nuestro stock y contacta por WhatsApp.">
+  <meta name="theme-color" content="#071014">
+  <title>AUTOS EXTREM L.J. | Compra y venta de vehículos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topline"><span>COMPRA · VENTA · VEHÍCULOS</span><span>ATENCIÓN PERSONALIZADA</span></div>
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="Autos Extrem LJ, inicio">
+      <img src="assets/logo-autos-extrem-lj.jpeg" alt="Logo Autos Extrem L.J.">
+      <span><b>AUTOS EXTREM <em>L.J.</em></b><small>COMPRA Y VENTA DE VEHÍCULOS</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#inicio">Inicio</a><a href="#stock">Vehículos</a><a href="#vender">Vende tu coche</a><a href="#contacto">Contacto</a>
+      <a class="nav-cta" href="https://wa.me/34617469025" target="_blank" rel="noopener">HABLAR POR WHATSAPP ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> AUTOS EXTREM L.J.</p>
+        <h1>ENCUENTRA TU<br><i>PRÓXIMO COCHE.</i></h1>
+        <p class="hero-copy">Vehículos seleccionados, atención cercana y un proceso de compra claro. Descubre nuestro stock o cuéntanos qué estás buscando.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#stock">VER VEHÍCULOS <b>↓</b></a>
+          <a class="btn btn-ghost" href="https://wa.me/34617469025" target="_blank" rel="noopener">CONTACTAR ↗</a>
+        </div>
+        <div class="hero-note"><span class="line"></span> TU PRÓXIMO VEHÍCULO EMPIEZA AQUÍ</div>
+      </div>
+      <div class="hero-stamp">AUTOS<br><strong>EXTREM</strong><br><small>L.J.</small></div>
+    </section>
+
+    <section class="trust-strip">
+      <div><strong>01</strong><span>COMPRA Y VENTA</span></div>
+      <div><strong>02</strong><span>ATENCIÓN PERSONALIZADA</span></div>
+      <div><strong>03</strong><span>TRANSPARENCIA</span></div>
+    </section>
+
+    <section class="section stock-section" id="stock">
+      <div class="section-heading">
+        <div><p class="eyebrow dark"><span></span> STOCK DISPONIBLE</p><h2>VEHÍCULOS <i>DESTACADOS</i></h2></div>
+        <p class="section-intro">Consulta los vehículos disponibles. ¿No encuentras lo que buscas? Escríbenos y te ayudaremos.</p>
+      </div>
+      <div class="filters">
+        <label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Buscar marca o modelo..."></label>
+        <select id="fuel"><option value="">Todos los combustibles</option><option>Gasolina</option><option>Diésel</option><option>Híbrido</option><option>Eléctrico</option><option>GLP</option></select>
+        <select id="sort"><option value="new">Más recientes</option><option value="price-up">Precio: menor a mayor</option><option value="price-down">Precio: mayor a menor</option></select>
+      </div>
+      <div id="vehicle-grid" class="vehicle-grid"></div>
+      <div id="empty-state" class="empty-state">
+        <div class="empty-icon">＋</div><h3>PRÓXIMAMENTE, NUEVOS VEHÍCULOS</h3>
+        <p>Estamos preparando nuestro catálogo. Mientras tanto, consulta disponibilidad directamente por WhatsApp.</p>
+        <a class="btn btn-primary" href="https://wa.me/34617469025?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20vuestros%20veh%C3%ADculos." target="_blank" rel="noopener">CONSULTAR STOCK ↗</a>
+      </div>
+    </section>
+
+    <section class="sell-section" id="vender">
+      <div class="sell-copy"><p class="eyebrow"><span></span> ¿QUIERES VENDER?</p><h2>¿PENSANDO EN<br><i>VENDER TU COCHE?</i></h2><p>Cuéntanos qué vehículo tienes. Envíanos sus datos y nos pondremos en contacto contigo para valorar tu propuesta.</p><a class="btn btn-primary" href="https://wa.me/34617469025?text=Hola%2C%20quiero%20vender%20mi%20coche.%20Me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n." target="_blank" rel="noopener">QUIERO VENDER MI COCHE ↗</a></div>
+      <div class="sell-mark"><span>AE</span><small>AUTOS EXTREM L.J.</small></div>
+    </section>
+
+    <section class="section why-section">
+      <p class="eyebrow dark"><span></span> NUESTRA FORMA DE TRABAJAR</p>
+      <h2>CLARIDAD EN CADA <i>KM.</i></h2>
+      <div class="benefits">
+        <article><b>01</b><h3>TRATO DIRECTO</h3><p>Atención personal para resolver tus dudas y acompañarte durante el proceso.</p></article>
+        <article><b>02</b><h3>INFORMACIÓN CLARA</h3><p>Consulta las características y detalles de cada vehículo antes de decidir.</p></article>
+        <article><b>03</b><h3>TE ESCUCHAMOS</h3><p>Buscamos ayudarte a encontrar el vehículo que encaje contigo.</p></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div><p class="eyebrow"><span></span> ESTAMOS AQUÍ PARA AYUDARTE</p><h2>¿HABLAMOS?</h2><p>Visítanos en Calle Reus, 13, 43850 Cambrils (Tarragona). Para consultar un vehículo, solicitar más fotografías o resolver cualquier duda, contacta directamente con nosotros.</p></div>
+      <a class="contact-phone" href="https://wa.me/34617469025" target="_blank" rel="noopener"><small>WHATSAPP</small><strong>617 469 025</strong><span>ESCRÍBENOS ↗</span></a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="footer-brand" href="#inicio">AUTOS EXTREM <em>L.J.</em></a>
+    <span>COMPRA · VENTA · VEHÍCULOS</span>
+    <span>Calle Reus, 13 · 43850 Cambrils (Tarragona)</span>
+    <span>© <span id="year"></span> AUTOS EXTREM L.J. · TODOS LOS DERECHOS RESERVADOS</span>
+  </footer>
+  <a class="whatsapp-float" href="https://wa.me/34617469025" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">✆</a>
+  <script src="script.js"></script>
+</body>
+</html>

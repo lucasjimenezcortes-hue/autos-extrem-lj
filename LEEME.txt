@@ -1,0 +1,25 @@
+AUTOS EXTREM L.J. — WEB Y CATÁLOGO EDITABLE
+
+La web incluye inicialmente:
+- BMW 520d (ficha que ya estaba en el proyecto original).
+- Škoda Octavia 2.0 TDI Elegance DSG: 2007, 145.000 km, diésel, automático, 5.990 €.
+- SEAT Altea XL 1.6 TDI Emotion 90 CV: 2011, 180.000 km, diésel, manual, 5.990 €.
+
+El Nissan Qashqai se ha dejado fuera porque faltan fotografías.
+Dirección: Calle Reus, 13, 43850 Cambrils (Tarragona).
+
+ADMINISTRAR EL CATÁLOGO
+La dirección del panel será: TU-DOMINIO/admin/
+Se ha incorporado Decap CMS para que puedas crear, editar y eliminar fichas y subir fotos desde móvil u ordenador.
+
+IMPORTANTE: el panel necesita que el proyecto esté publicado en Netlify conectado a un repositorio Git (GitHub/GitLab), con Identity y Git Gateway habilitados. En Netlify:
+1. Conecta este proyecto a un repositorio Git y publica la rama main.
+2. En Site configuration / Identity, habilita Identity.
+3. En Identity > Registration, selecciona Invite only para que no se registre cualquiera.
+4. En Identity > Services, habilita Git Gateway.
+5. Invítate con tu correo desde Identity > Invite users y acepta la invitación.
+6. Entra en TU-DOMINIO/admin/ e inicia sesión. Desde ahí puedes añadir coches y subir fotografías.
+
+Cada ficha debe tener id único, marca, modelo, año, kilómetros, combustible, cambio, precio, foto principal, galería y características. Las imágenes se guardan en assets/uploads y el catálogo público se actualiza al publicar los cambios.
+
+NOTA: los datos de año/km/precio de los anuncios se han tomado de los enlaces y mensajes facilitados; conviene revisarlos antes de publicar. El número de WhatsApp existente en el proyecto original se ha conservado.
